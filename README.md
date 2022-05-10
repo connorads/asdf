@@ -9,13 +9,19 @@
 ![image](https://user-images.githubusercontent.com/10026538/152244419-5b4198df-6435-4211-ac7c-9845c0571b08.png)
 ![image](https://user-images.githubusercontent.com/10026538/152244449-9d08d7b4-11d3-472a-bb23-83f2128048d4.png)
 
-## Commands
+## Setup
 
 Install asdf
 
 `brew install asdf`
 
-Setup
+Create symlink to downloaded `.tool-versions` from default `.tool-versions` path
+
+`ln -s ~/path/to/repo/asdf/.tool-versions ~/.tool-versions`
+
+Install all tools defined in `.tool-versions`
+
+## Commands
 
 List plugins
 

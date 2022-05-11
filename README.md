@@ -69,9 +69,12 @@ Sometimes you don't want to commit your `.tool-versions` to source control if yo
 
 ### Ignore `.tool-versions` files globally in `git`
 
-`echo ".tool-versions" > ~/.gitignore`
+```sh
+echo ".tool-versions" > ~/.gitignore
+git config --global core.excludesfile ~/.gitignore
+```
 
-`git config --global core.excludesfile ~/.gitignore`
+You can still force add it `git add -f .tool-versions`
 
 ### Use existing version files like `.nvmrc` and `.ruby-version`
 

@@ -2,13 +2,6 @@
 
 `asdf` is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like `gvm`, `nvm`, `rbenv` & `pyenv` (and more) all in one! Simply install your language's plugin!
 
-## Tips
-
-- `asdf` supports <kbd>tab</kbd> completion: If you don't remember a command, plugin name or which version(s) you have installed just press <kbd>tab</kbd>
-![image](https://user-images.githubusercontent.com/10026538/152244355-d0636538-1c60-4d46-8978-e0b45831ff0b.png)
-![image](https://user-images.githubusercontent.com/10026538/152244419-5b4198df-6435-4211-ac7c-9845c0571b08.png)
-![image](https://user-images.githubusercontent.com/10026538/152244449-9d08d7b4-11d3-472a-bb23-83f2128048d4.png)
-
 ## Setup
 
 ### Install `asdf`
@@ -83,3 +76,10 @@ Sometimes you don't want to commit your `.tool-versions` to source control if yo
 ### Use existing version files like `.nvmrc` and `.ruby-version`
 
 https://asdf-vm.com/manage/configuration.html#legacy-version-file
+
+## Tips
+
+- `asdf` supports <kbd>tab</kbd> completion: If you don't remember a command, plugin name or which version(s) you have installed just press <kbd>tab</kbd>
+![image](https://user-images.githubusercontent.com/10026538/152244355-d0636538-1c60-4d46-8978-e0b45831ff0b.png)
+![image](https://user-images.githubusercontent.com/10026538/152244419-5b4198df-6435-4211-ac7c-9845c0571b08.png)
+![image](https://user-images.githubusercontent.com/10026538/152244449-9d08d7b4-11d3-472a-bb23-83f2128048d4.png)

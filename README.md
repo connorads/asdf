@@ -21,6 +21,8 @@ Create symlink to downloaded `.tool-versions` from default `.tool-versions` path
 
 Install all tools defined in `.tool-versions`
 
+`asdf install`
+
 ## Commands
 
 List plugins

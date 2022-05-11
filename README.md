@@ -11,25 +11,25 @@
 
 ## Setup
 
-Install asdf
+### Install `asdf`
 
 `brew install asdf`
 
-Create symlink to downloaded `.tool-versions` from default `.tool-versions` path
+### Create symlink to downloaded `.tool-versions` from default `.tool-versions` path
 
 `ln -s ~/path/to/repo/asdf/.tool-versions ~/.tool-versions`
 
-Install all tools defined in `.tool-versions`
+###  Install all tools defined in `.tool-versions`
 
 `asdf install`
 
 ## Commands
 
-List plugins
+### List plugins
 
 `asdf plugin list all`
 
-Add plugins
+### Add plugins
 
 ```sh
 asdf plugin add elixir
@@ -40,39 +40,39 @@ asdf plugin add nodejs
 asdf plugin add ruby
 ```
 
-List latest stable version
+### List latest stable version
 
 ```sh
 asdf latest nodejs 14
 asdf latest nodejs 16
 ```
 
-Install latest stable version
+### Install latest stable version
 
 ```sh
 asdf install nodejs latest
 asdf install nodejs latest 16
 ```
 
-See current version
+### See current version
 
 `asdf where nodejs`
 
-Set current local version
+### Set current local version
 
 `asdf local nodejs 12.22.4`
 
-Set current global version
+### Set current global version
 
 `asdf global nodejs 12.22.4`
 
-Set current shell version
+### Set current shell version
 
 `asdf shell nodejs 12.22.4`
 
 ## Git
 
-Ignore `.tool-versions` files globally
+### Ignore `.tool-versions` files globally
 
 `echo ".tool-versions" > ~/.gitignore`
 

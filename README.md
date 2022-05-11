@@ -70,10 +70,16 @@ asdf install nodejs latest 16
 
 `asdf shell nodejs 12.22.4`
 
-## Git
+## Storing local version numbers in source control
 
-### Ignore `.tool-versions` files globally
+Sometimes you don't want to commit your `.tool-versions` to source control if your teammates aren't using `asdf`
+
+### Ignore `.tool-versions` files globally in `git`
 
 `echo ".tool-versions" > ~/.gitignore`
 
 `git config --global core.excludesfile ~/.gitignore`
+
+### Use existing version files like `.nvmrc` and `.ruby-version`
+
+https://asdf-vm.com/manage/configuration.html#legacy-version-file

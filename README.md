@@ -12,7 +12,11 @@
 
 `ln -s ~/path/to/repo/asdf/.tool-versions ~/.tool-versions`
 
-###  Install all tools defined in `.tool-versions`
+### Install all plugins from `.tool-versions`
+
+`cut -d' ' -f1 .tool-versions | xargs -I{} asdf plugin add {}`
+
+### Install all tools from `.tool-versions`
 
 `asdf install`
 

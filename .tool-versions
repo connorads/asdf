@@ -4,3 +4,4 @@ ruby 3.0.2
 elixir 1.5
 golang 1.17.3
 rust 1.62.0
+dotnet-core 6.0.401

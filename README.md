@@ -20,6 +20,13 @@
 
 `asdf install`
 
+## Upgrade
+
+```sh
+brew upgrade asdf
+asdf reshim
+```
+
 ## Commands
 
 ### List plugins

@@ -1,5 +1,7 @@
 # asdf
 
+> ⚠️ I've started using [rtx](https://github.com/connorads/rtx) instead
+
 `asdf` is a CLI tool that can manage multiple language runtime versions on a per-project basis. It is like `gvm`, `nvm`, `rbenv` & `pyenv` (and more) all in one! Simply install your language's plugin!
 
 ## Setup
